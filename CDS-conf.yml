@@ -1,7 +1,7 @@
 {
   "clusters": [
     {
-      "name": "cluster-from-cds",
+      "name": "cluster-from-cds1",
       "hosts": [{"url": "tcp://127.0.0.1:8078"}],
       "connect_timeout_ms": 10000,
       "type": "static",
@@ -9,7 +9,7 @@
       "max_requests_per_connection": 1
     },
     {
-      "name": "cluster-from-cds",
+      "name": "cluster-from-cds2",
       "hosts": [{"url": "tcp://127.0.0.1:8079"}],
       "connect_timeout_ms": 10000,
       "type": "static",
@@ -17,7 +17,7 @@
       "max_requests_per_connection": 1
     },
     {
-      "name": "cluster-from-cds",
+      "name": "cluster-from-cds3",
       "hosts": [{"url": "tcp://127.0.0.1:8080"}],
       "connect_timeout_ms": 10000,
       "type": "static",
