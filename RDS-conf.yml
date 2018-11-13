@@ -1,0 +1,10 @@
+{
+  "virtual_hosts": [{
+    "name": "vhost-from-cds",
+    "domains": ["*"],
+    "routes": [{
+      "prefix": "/",
+      "cluster": "cluster-from-cds"
+    }]
+  }]
+}
