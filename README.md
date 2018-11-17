@@ -55,3 +55,9 @@ $ curl --header "Content-Type: application/json" \
 $ curl --header "Content-Type: application/json" \
   --request DELETE \
   http://cds:3000/cluster/service1
+  
+  
+  Building the Control Plane for Service Discovery
+  - We will be using consul, Nomad etc
+  Help materials
+  - https://sreeninet.wordpress.com/2016/04/17/service-discovery-with-consul/
