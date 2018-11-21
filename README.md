@@ -61,3 +61,6 @@ $ curl --header "Content-Type: application/json" \
   - We will be using consul, Nomad etc
   Help materials
   - https://sreeninet.wordpress.com/2016/04/17/service-discovery-with-consul/
+  
+  For sample REST crafting, use the proto3 documentation to craft a proper json for CDS, EDS or RDS
+  - https://github.com/envoyproxy/data-plane-api/tree/master/envoy/api/v2
