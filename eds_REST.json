@@ -1,19 +1,25 @@
 {
-    "cluster_name": "cluster",
-    "endpoints": [{
-        "locality": {
-            "region": "region-x",
-            "zone": "a"
-        },
-        "lb_endpoints": [{
-            "endpoint": {
+  "version_info": "0",
+  "resources": [
+    {
+      "@type": "type.googleapis.com/envoy.api.v2.ClusterLoadAssignment",
+      "cluster_name": "server",
+      "endpoints": [
+        {
+          "lb_endpoints": [
+            {
+              "endpoint": {
                 "address": {
-                    "socket_address": {
-                        "address": "0.0.0.0",
-                        "port_value": 8080
-                    }
+                  "socket_address": {
+                    "address": "xxx.xxx.xxx.xx",
+                    "port_value": xxxx
+                  }
                 }
+              }
             }
-        }]
-    }]
+          ]
+        }
+      ]
+    }
+  ]
 }
